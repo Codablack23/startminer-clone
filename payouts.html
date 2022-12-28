@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Latest Payouts | Startminer</title>
+    <meta
+      name="description"
+      content="We are super transparent, Check all payout detail on our latest payout section. We are 100% legit, secure and tranparent mining pool!"
+    />
+
+    <!-- Favicon icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="."
+    />
+    <input
+      type="hidden"
+      id="assets_url"
+      value="./assets//front/"
+    />
+
+    <!-- Stylesheet -->
+    <link
+      href="./assets///front/vendor/bootstrap-select/bootstrap-select.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets///front/vendor/owl-carousel/owl.carousel.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets///front/vendor/lightgallery/css/lightgallery.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets///front/vendor/animate/animate.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="./assets///front/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets///front/css/custom.css"
+    />
+    <link
+      class="skin"
+      rel="stylesheet"
+      href="./assets///front/css/skin/skin-3.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets///front/vendor/rangeslider/rangeslider.css"
+    />
+
+    <meta
+      name="csrf-token"
+      content="7G8nJepAFebdLiSOkx26TXp5ZgHRb66t4x2y4fjV"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150859126-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-150859126-2");
+    </script>
+  </head>
+
+  <body id="bg">
+    <div class="page-wraper">
+      <!-- Header -->
+      <header class="site-header header mo-left header-transparent">
+        <!-- Main Header -->
+        <div class="sticky-header main-bar-wraper navbar-expand-lg">
+          <div class="main-bar clearfix">
+            <div class="container clearfix">
+              <!-- Website Logo -->
+              <div class="logo-header logo-white">
+                <a href="."
+                  ><img
+                    class="logo-3"
+                    src="./assets///front/images/logo-white.png"
+                    alt=""
+                /></a>
+              </div>
+              <!-- Nav Toggle Button -->
+              <button
+                class="navbar-toggler collapsed navicon justify-content-end"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <!-- Extra Nav -->
+              <div class="extra-nav">
+                <div class="extra-cell">
+                  <a
+                    href="javascript:void(0)"
+                    data-toggle="modal"
+                    data-target="#start_mining_myModal"
+                    class="btn btn-primary gradient rounded-xl"
+                    >Start Mining</a
+                  >
+                </div>
+              </div>
+              <div
+                class="header-nav navbar-collapse collapse justify-content-end"
+                id="navbarNavDropdown"
+              >
+                <div class="logo-header">
+                  <a href="."
+                    ><img
+                      src="./assets///front/images/logov2.png"
+                      alt=""
+                  /></a>
+                </div>
+                <ul class="nav navbar-nav navbar">
+                  <li class="">
+                    <a href="./index.html"> Home </a>
+                  </li>
+                  <li class="">
+                    <a href="./affiliate.html"
+                      >Affiliates</a
+                    >
+                  </li>
+                  <li class="active_payouts">
+                    <a href="./payouts.html"
+                      >Payouts
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="./faqs.html">Faq</a>
+                  </li>
+                  <li class="">
+                    <a href="./contact-us.html"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Main Header End -->
+      </header>
+      <!-- Header End -->
+
+      <!-- Modal -->
+      <div id="start_mining_myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <!-- start join area -->
+            <section
+              class="content-inner-3 bg-primary"
+              style="
+                background-image: url(./assets///front/images/background/bg13.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+              "
+            >
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-12 col-md-12 text-center">
+                    <div class="section-head style-1 text-white">
+                      <h6 class="sub-title text-white">Start Miner</h6>
+                      <h2 class="title m-b15">Start Bitcoin Cloud Mining</h2>
+                      <p>
+                        Signup using your bitcoin address and join our community
+                        of 75,000+ active miners to generate the highest
+                        possible profit to double up your investment. Start
+                        Earning Now!
+                      </p>
+                    </div>
+                    <div
+                      class="dlab-subscribe style-2 max-w500"
+                      style="margin: 0 auto"
+                    >
+                      <form
+                        id="add_formid"
+                        name="add_formid"
+                        action=""
+                        enctype="multipart/form-data"
+                        class="dzSubscribe"
+                        method="POST"
+                      >
+                        <div
+                          class="alert alert-danger"
+                          id="errmessageid"
+                          style="display: none"
+                        ></div>
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input
+                              type="hidden"
+                              name="txtreffer2"
+                              id="txtreffer2"
+                              value=""
+                            />
+                            <input
+                              name="addr2"
+                              id="addr2"
+                              class="form-control"
+                              placeholder="Enter your Bitcoin address"
+                              type="text"
+                              value=""
+                            />
+
+                            <div class="input-group-addon">
+                              <button
+                                name="submit"
+                                value="Submit"
+                                type="button"
+                                onclick="signin_with_address();"
+                                class="btn btn-primary"
+                              >
+                                Start Mining
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- end join area -->
+          </div>
+        </div>
+      </div>
+      <!-- model start mining-->
+
+      <!-- Modal -->
+      <div id="RedirectModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div id="content_Redirect_model"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- model start mining-->
+
+      <script>
+        function signin_with_address() {
+          var addr = document.getElementById("addr2").value;
+
+          var reffid = document.getElementById("txtreffer2").value;
+          stat = document.getElementById("errmessageid");
+          //var validadd = checkAddress(addr);
+          var validadd = WAValidator.validate(addr, "BTC");
+          //alert(validadd);
+          var nurl11 = "./dashboard";
+
+          if (validadd == true) {
+            var name = document.getElementById("add_formid");
+            var nurl = "";
+            var form_data = new FormData(name);
+
+            $.ajax({
+              headers: {
+                "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+              },
+              url: "./signin_with_address",
+              type: "POST",
+              dataType: "json",
+              data: form_data,
+              contentType: false,
+              cache: false,
+              processData: false,
+              success: function (data) {
+                //var obj = jQuery.parseJSON(data);
+                //alert(data.type);
+
+                if (data.type == "success") {
+                  window.location.href = nurl11;
+                } else if (data.type == "redirect") {
+                  get_ajax_content_redirect_model();
+                } else {
+                  $("#errmessageid").html(data.msg);
+                  $("#errmessageid").show();
+                }
+              },
+            });
+          } else {
+            $("#errmessageid").show();
+            stat.innerText =
+              addr +
+              "is invalid Bitcoin address! Enter correct Bitcoin address";
+          }
+        }
+
+        function get_ajax_content_redirect_model() {
+          $.ajax({
+            headers: {
+              "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+            },
+            url: "./ajax_content_redirect_model",
+            //data : dataString,
+            type: "POST",
+            // dataType : 'json',
+            success: function (res) {
+              // $('#start_mining_myModal').modal('hide');
+              $("#start_mining_myModal").css("display", "none");
+              $("#content_Redirect_model").html(res);
+              $("#RedirectModal").modal("show");
+            },
+          });
+        }
+      </script>
+
+      <div class="page-content bg-white">
+        <!-- Banner  -->
+        <div
+          class="dlab-bnr-inr style-1 bg-primary"
+          style="
+            background-image: url(./assets//front/images/new/bnr1.png);
+          "
+        >
+          <div class="container">
+            <div class="dlab-bnr-inr-entry">
+              <h1>Payouts</h1>
+              <p class="text-white">
+                This is real time payout and transaction detail of our
+                Startminer Miners. Just select your preferred Startminer plan
+                and start to earn bitcoins right now!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- ================================
+       START MARKETPRICE AREA
+================================= -->
+        <section class="marketprice-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="sec-heading text-center">
+                  <h2 class="sec__title">Deposite and withdrawals history</h2>
+                </div>
+                <!-- end sec-heading -->
+              </div>
+              <!-- end col-lg-12 -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div
+                  class="coinprice-table table-responsive"
+                  style="overflow-y: hidden"
+                >
+                  <table class="table table-bordered text-left" id="timetable">
+                    <input type="hidden" name="offset" id="offset" value="0" />
+                    <thead>
+                      <tr>
+                        <th>DATE</th>
+                        <th>BTC</th>
+                        <th>ADDRESS</th>
+                        <th>TXID</th>
+                      </tr>
+                    </thead>
+
+                    <tbody id="tablebody"></tbody>
+                    <tbody id="tablebody2"></tbody>
+                  </table>
+                </div>
+                <!-- end table -->
+              </div>
+              <!-- end col-lg-12 -->
+            </div>
+            <br /><br />
+            <!-- end row -->
+
+            <!-- end row -->
+            <div class="row text-center">
+              <div class="col-lg-12">
+                <div class="button-shared-wrap">
+                  <a
+                    href="javascript:void(0)"
+                    onclick="loadpayouts(); return false;"
+                    class="btn btn-primary"
+                    >Load more</a
+                  >
+                </div>
+                <!-- end button-shared-wrap -->
+              </div>
+              <!-- end col-lg-12 -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end container -->
+        </section>
+        <!-- end marketprice-area -->
+        <!-- ================================
+       START MARKETPRICE AREA
+================================= -->
+      </div>
+
+      <section
+        class="overlay-secondary-middle bg-img-fix"
+        style="background: #003049"
+      >
+        <div class="container">
+          <div class="row action-box style-1 align-items-center">
+            <div
+              class="col-xl-9 col-lg-8 col-md-8 wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
+              <h2 class="title text-white my-2">Get In Touch</h2>
+              <h5 class="text-white">
+                If You Have A Question Which Is Beyond Our FAQs Kindly Contact
+                Us<br />
+                Or Write To Us Now.
+              </h5>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 text-right wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-delay="0.4s"
+            >
+              <a
+                href="./contact-us"
+                class="btn btn-primary"
+                >Contact Now <i class="fa fa-angle-right m-l10"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer
+        class="site-footer style-1"
+        id="footer"
+        style="
+          background-image: url(./assets///front/images/background/bg10.png);
+        "
+      >
+        <div class="footer-top">
+          <div class="container">
+            <div
+              class="footer-info wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-delay="0.8s"
+            >
+              <div class="row align-items-center">
+                <div class="col-xl-5 col-md-4">
+                  <div class="footer-logo">
+                    <a href="javascript:void(0);"
+                      ><img
+                        style="width: 250px"
+                        src="./assets///front/images/logo-white.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                  <div class="icon-bx-wraper left m-b10">
+                    <div class="icon-lg">
+                      <a href="javascript:void(0);" class="icon-cell">
+                        <i class="flaticon-email"></i>
+                      </a>
+                    </div>
+                    <div class="icon-content">
+                      <p>
+                        <strong>+4476586787</strong><br /><a
+                          href="/cdn-cgi/l/email-protection"
+                          class="__cf_email__"
+                          data-cfemail="0d6c696064634d7e796c7f79606463687f237a686f7e647968"
+                          >[email&#160;protected]</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-6">
+                  <div class="icon-bx-wraper left m-b10">
+                    <div class="icon-lg">
+                      <a href="javascript:void(0);" class="icon-cell">
+                        <i class="flaticon-location"></i>
+                      </a>
+                    </div>
+                    <div class="icon-content">
+                      <p>20-22 Featherstone St London EC1Y, UK</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-xl-5 col-lg-5 col-sm-6 wow fadeIn"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div class="widget widget_about">
+                  <h5 class="footer-title">ABOUT US</h5>
+                  <p>
+                    Join the most trusted brand in Bitcoin Mining and double up
+                    your investment with the highest possible hash rate. Join
+                    Now! We are a UK-based, Trusted, Secure & Transparent
+                    bitcoin cloud mining service provider in the market with
+                    75,000+ Happy Customers. Get the benefits of innovative and
+                    advanced technology to maximize your mining income!
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-xl-3 col-lg-2 col-sm-12 wow fadeIn"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div class="widget widget_services">
+                  <h5 class="footer-title">OUR LINKS</h5>
+                  <ul>
+                    <li>
+                      <a href="./affiliate.html"
+                        >Affiliate</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./payouts.html"
+                        >Payouts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./faqs.html">Faq</a>
+                    </li>
+                    <li>
+                      <a href="./contact-us.html"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="col-xl-4 col-lg-4 col-sm-12 wow fadeIn"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div class="widget widget_services">
+                  <h5 class="footer-title">HELP & SUPPORT</h5>
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >Terms of Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Disclaimer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Cookie Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer bottom part -->
+        <div
+          class="footer-bottom wow fadeIn"
+          data-wow-duration="2s"
+          data-wow-delay="0.2s"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <span class="copyright-text"
+                  >Copyright © 2017-2022
+                  <a href="javascript:void(0);">Startminer </a> All Rights
+                  Reserved</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+      <button class="scroltop icon-up" type="button">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="./assets//front/js/jquery.min.js"></script>
+    <!-- JQUERY.MIN JS -->
+    <script src="./assets//front/vendor/wow/wow.js"></script>
+    <!-- WOW JS -->
+    <script src="./assets//front/vendor/bootstrap/js/popper.min.js"></script>
+    <!-- POPPER.MIN JS -->
+    <script src="./assets//front/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP.MIN JS -->
+    <script src="./assets//front/vendor/owl-carousel/owl.carousel.js"></script>
+    <!-- OWL-CAROUSEL JS -->
+    <script src="./assets//front/vendor/magnific-popup/magnific-popup.js"></script>
+    <!-- MAGNIFIC-POPUP JS -->
+    <script src="./assets//front/vendor/counter/waypoints-min.js"></script>
+    <!-- WAYPOINTS JS -->
+    <script src="./assets//front/vendor/counter/counterup.min.js"></script>
+    <!-- COUNTERUP JS -->
+    <script src="./assets//front/vendor/masonry/masonry-4.2.2.js"></script>
+    <!-- MASONRY -->
+    <script src="./assets//front/vendor/lightgallery/js/lightgallery-all.min.js"></script>
+    <!-- LIGHTGALLERY -->
+    <script src="./assets//front/vendor/bootstrap-select/bootstrap-select.min.js"></script>
+    <!-- BOOTSTRAP SELECT -->
+    <script src="./assets//front/vendor/imagesloaded/imagesloaded.js"></script>
+    <!-- IMAGESLOADED -->
+    <script src="./assets//front/vendor/masonry/isotope.pkgd.min.js"></script>
+    <!-- ISOTOPE -->
+    <script src="./assets//front/js/dz.carousel.js"></script>
+    <!-- OWL-CAROUSEL -->
+    <script src="./assets//front/js/iconify.min.js"></script>
+    <script src="./assets//front/js/custom.js"></script>
+    <!-- CUSTOM JS -->
+
+    <script
+      type="text/javascript"
+      src="./assets//front/js/wallet-address-validator.min.js"
+    ></script>
+    <script
+      async=""
+      src="https://www.google.com/recaptcha/api.js"
+      defer=""
+      type="text/javascript"
+    ></script>
+
+    <div class="spm" style="display: none">
+      <div class="txt">
+        Someone from <b>Sweden</b> just ordered
+        <a href="javascript:void(0);" onclick="javascript:void(0);">V 2</a>
+      </div>
+    </div>
+
+    <style>
+      .spm {
+        border-radius: 7px;
+        position: fixed;
+        z-index: 90;
+        bottom: 80px;
+        left: 50px;
+        background: #fff;
+        padding: 10px 27px;
+        box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+      }
+      .spm a {
+        font-weight: 700;
+        display: block;
+        color: #bf3654;
+      }
+      .spm a,
+      .spm a:active {
+        transition: all 0.2s ease;
+        color: #bf3654;
+      }
+    </style>
+    <script type="text/javascript">
+      var v1 = "V 1";
+      var v2 = "V 2";
+      var v3 = "V 3";
+      var v4 = "V 4";
+      var listCountries = [
+        "Brazil",
+        "USA",
+        "Germany",
+        "France",
+        "Italy",
+        "India",
+        "Australia",
+        "China",
+        "Canada",
+        "Argentina",
+        "Saudi Arabia",
+        "Mexico",
+        "Indonesia",
+        "Egypt",
+        "Venezuela",
+        "Madagascar",
+        "Sweden",
+        "Philippines",
+        "Finland",
+        "Italy",
+        "Ecuador",
+        "United Kingdom",
+        "Belarus",
+        "Greece",
+        "Cuba",
+        "Hungary",
+        "Portugal",
+        "Austria",
+        "Iceland",
+        "Panama",
+        "Croatia",
+        "Denmark",
+        "Netherlands",
+        "Switzerland",
+        "Belgium",
+        "Israel",
+        "Cyprus",
+      ];
+      var listPlans = [
+        v1,
+        v2,
+        v3,
+        v4,
+        v3,
+        v1,
+        v4,
+        v2,
+        v4,
+        v3,
+        v1,
+        v1,
+        v2,
+        v4,
+        v3,
+        v2,
+        v4,
+        v3,
+        v2,
+      ];
+      interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+      var run = setInterval(request, interval);
+
+      function request() {
+        clearInterval(run);
+        interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+        var country =
+          listCountries[Math.floor(Math.random() * listCountries.length)];
+        var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+        var msg =
+          "Someone from <b>" +
+          country +
+          '</b> just ordered <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+          plan +
+          " plan</a>";
+        $(".spm .txt").html(msg);
+        $(".spm").stop(true).fadeIn(300);
+        window.setTimeout(function () {
+          $(".spm").stop(true).fadeOut(300);
+        }, 6000);
+        run = setInterval(request, interval);
+      }
+    </script>
+
+    <script>
+      $(window).ready(function () {
+        $("#add_formid").on("keypress", function (event) {
+          var keyPressed = event.keyCode || event.which;
+          if (keyPressed === 13) {
+            event.preventDefault();
+            signin_with_address();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<script>
+  $(document).ready(function () {
+    loadpayouts();
+  });
+
+  $.ajaxSetup({
+    headers: {
+      "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+    },
+  });
+
+  function loadpayouts() {
+    var ofset = $("#offset").val();
+    //document.getElementById('loddermodal').style.display = 'block';
+    //document.getElementById('lodderfade').style.display = 'block';
+    $.ajax({
+      url: "./getajaxpayoutsdata",
+      method: "GET",
+      data: { offset: ofset },
+      beforeSend: function () {
+        $("#loddermodal").show();
+      },
+      success: function (e) {
+        // $("#tablebody").html(e);
+        $("#tablebody").append(e);
+
+        $("#offset").val(parseInt(parseInt(ofset) + 12));
+      },
+      complete: function () {
+        $("#loader").hide();
+        //$("#tablebody").hide();
+      },
+    });
+  }
+</script>
